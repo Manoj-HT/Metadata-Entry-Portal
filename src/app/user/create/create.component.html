@@ -8,12 +8,20 @@
         <form [formGroup]="userDetails">
           <table>
             <tr>
-              <td>Name : </td>
-              <td><input type="text" formControlName="name" ></td>
+              <td>First Name : </td>
+              <td><input type="text" formControlName="firstName" ></td>
+            </tr>
+            <tr>
+              <td>Last Name : </td>
+              <td><input type="text" formControlName="lastName" ></td>
             </tr>
             <tr>
               <td>Mobile Number :</td>
               <td><input type="number" name="" id="" formControlName="mobileNumber" ></td>
+            </tr>
+            <tr>
+              <td>Email Id :</td>
+              <td><input type="email" name="" id="" formControlName="emailId" ></td>
             </tr>
             <tr>
               <td>Password : </td>
@@ -24,6 +32,7 @@
       </div>
       <body>
         <button (click)="submit()" >Create</button>
+        <button (click)="delete()" >delete</button>
       </body>
     </div>
   </div>

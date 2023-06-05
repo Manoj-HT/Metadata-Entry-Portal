@@ -1,3 +1,20 @@
 {
-  "userDetails" : []
+  "userDetails": [
+    {
+      "firstName": "asca",
+      "lastName": "ascc",
+      "password": "India@2023",
+      "mobileNumber": 1214,
+      "emailId": "33004qe14",
+      "id": 1
+    },
+    {
+      "firstName": "Shubham",
+      "lastName": "iasd",
+      "password": "123",
+      "mobileNumber": 6598,
+      "emailId": "33004",
+      "id": 2
+    }
+  ]
 }

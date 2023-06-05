@@ -1,1 +1,20 @@
-<p>list works!</p>
+<div class="box">
+  <table *ngFor="let item of userDetails" >
+    <tr>
+      <td>Name :</td>
+      <td>{{item.firstName}} &nbsp; {{item.lastName}}</td>
+    </tr>
+    <tr>
+      <td>Email :</td>
+      <td>{{item.emailId}}</td>
+    </tr>
+    <tr>
+      <td>Mobile Number</td>
+      <td>{{item.mobileNumber}}</td>
+    </tr>
+    <tr>
+      <td>Password</td>
+      <td>{{item.password}}</td>
+    </tr>
+  </table>
+</div>
