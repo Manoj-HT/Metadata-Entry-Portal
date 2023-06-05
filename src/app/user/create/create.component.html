@@ -1,11 +1,29 @@
 <div class="top_cont">
   <div class="page">
     <div class="head">
-      head
+      Create User
     </div>
     <div class="body">
+      <div class="box">
+        <form [formGroup]="userDetails">
+          <table>
+            <tr>
+              <td>Name : </td>
+              <td><input type="text" formControlName="name" ></td>
+            </tr>
+            <tr>
+              <td>Mobile Number :</td>
+              <td><input type="number" name="" id="" formControlName="mobileNumber" ></td>
+            </tr>
+            <tr>
+              <td>Password : </td>
+              <td><input type="password" name="" id="" formControlName="password" ></td>
+            </tr>
+          </table>
+        </form>
+      </div>
       <body>
-        <button (click)="click()" >button</button>
+        <button (click)="submit()" >Create</button>
       </body>
     </div>
   </div>

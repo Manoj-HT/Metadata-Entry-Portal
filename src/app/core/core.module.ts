@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { CoreRoutingModule } from './core-routing.module';
 import { CoreComponent } from './core/core.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
   ],
   imports: [
     CommonModule,
-    CoreRoutingModule
+    CoreRoutingModule,
+    ReactiveFormsModule
   ],
   exports: [CoreComponent],
 })
