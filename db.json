@@ -1,3 +1,11 @@
 {
- "users" : []
+  "users": [
+    {
+      "name": "Manoj HT",
+      "email": "manulogan101@gmail.com",
+      "mobile": "+918277429750",
+      "password": "efe",
+      "id": 1
+    }
+  ]
 }
